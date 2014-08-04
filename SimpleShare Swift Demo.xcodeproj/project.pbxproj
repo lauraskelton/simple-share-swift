@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82CBACDD198FE82900DC6274 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82CBACDC198FE82900DC6274 /* CoreBluetooth.framework */; };
+		82CBACE5198FF49700DC6274 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CBACDE198FF49700DC6274 /* AppDelegate.swift */; };
+		82CBACE7198FF49700DC6274 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82CBACE2198FF49700DC6274 /* Images.xcassets */; };
+		82CBACE8198FF49700DC6274 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 82CBACE3198FF49700DC6274 /* Info.plist */; };
+		82CBACE9198FF49700DC6274 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CBACE4198FF49700DC6274 /* ViewController.swift */; };
+		82CBACF1198FF4C300DC6274 /* SimpleShare.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CBACEC198FF4C300DC6274 /* SimpleShare.m */; };
+		82CBACF2198FF4C300DC6274 /* SSFindItemManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CBACEE198FF4C300DC6274 /* SSFindItemManager.m */; };
+		82CBACF3198FF4C300DC6274 /* SSShareItemManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CBACF0198FF4C300DC6274 /* SSShareItemManager.m */; };
+		82CBACF7198FF5CE00DC6274 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82CBACF5198FF5CE00DC6274 /* Main.storyboard */; };
+		82CBACF9198FF5F800DC6274 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 82CBACF8198FF5F800DC6274 /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		357D119E196B5A550055CDAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 357D1183196B5A550055CDAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 357D118A196B5A550055CDAE;
+			remoteInfo = TipCalculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		357D118B196B5A550055CDAE /* SimpleShare Swift Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SimpleShare Swift Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		357D119D196B5A550055CDAE /* SimpleShare Swift DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SimpleShare Swift DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82CBACD2198FE81300DC6274 /* SimpleShareDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleShareDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		82CBACDC198FE82900DC6274 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		82CBACDE198FF49700DC6274 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = SimpleShareDemo/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
+		82CBACE2198FF49700DC6274 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = SimpleShareDemo/Images.xcassets; sourceTree = SOURCE_ROOT; };
+		82CBACE3198FF49700DC6274 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = SimpleShareDemo/Info.plist; sourceTree = SOURCE_ROOT; };
+		82CBACE4198FF49700DC6274 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = SimpleShareDemo/ViewController.swift; sourceTree = SOURCE_ROOT; };
+		82CBACEB198FF4C300DC6274 /* SimpleShare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SimpleShare.h; path = SimpleShare/SimpleShare.h; sourceTree = "<group>"; };
+		82CBACEC198FF4C300DC6274 /* SimpleShare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SimpleShare.m; path = SimpleShare/SimpleShare.m; sourceTree = "<group>"; };
+		82CBACED198FF4C300DC6274 /* SSFindItemManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSFindItemManager.h; path = SimpleShare/SSFindItemManager.h; sourceTree = "<group>"; };
+		82CBACEE198FF4C300DC6274 /* SSFindItemManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSFindItemManager.m; path = SimpleShare/SSFindItemManager.m; sourceTree = "<group>"; };
+		82CBACEF198FF4C300DC6274 /* SSShareItemManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSShareItemManager.h; path = SimpleShare/SSShareItemManager.h; sourceTree = "<group>"; };
+		82CBACF0198FF4C300DC6274 /* SSShareItemManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSShareItemManager.m; path = SimpleShare/SSShareItemManager.m; sourceTree = "<group>"; };
+		82CBACF6198FF5CE00DC6274 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = SimpleShareDemo/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
+		82CBACF8198FF5F800DC6274 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		357D1188196B5A550055CDAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82CBACDD198FE82900DC6274 /* CoreBluetooth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		357D119A196B5A550055CDAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		357D1182196B5A550055CDAE = {
+			isa = PBXGroup;
+			children = (
+				82CBACF8198FF5F800DC6274 /* README.md */,
+				82CBACEA198FF4B400DC6274 /* SimpleShare */,
+				357D118D196B5A550055CDAE /* SimpleShare Swift Demo */,
+				82CBACF4198FF4D600DC6274 /* Frameworks */,
+				357D118C196B5A550055CDAE /* Products */,
+				82CBACD2198FE81300DC6274 /* SimpleShareDemo-Bridging-Header.h */,
+			);
+			sourceTree = "<group>";
+		};
+		357D118C196B5A550055CDAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				357D118B196B5A550055CDAE /* SimpleShare Swift Demo.app */,
+				357D119D196B5A550055CDAE /* SimpleShare Swift DemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		357D118D196B5A550055CDAE /* SimpleShare Swift Demo */ = {
+			isa = PBXGroup;
+			children = (
+				82CBACDE198FF49700DC6274 /* AppDelegate.swift */,
+				82CBACE4198FF49700DC6274 /* ViewController.swift */,
+				82CBACF5198FF5CE00DC6274 /* Main.storyboard */,
+				82CBACE2198FF49700DC6274 /* Images.xcassets */,
+				357D118E196B5A550055CDAE /* Supporting Files */,
+			);
+			name = "SimpleShare Swift Demo";
+			path = TipCalculator;
+			sourceTree = "<group>";
+		};
+		357D118E196B5A550055CDAE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				82CBACE3198FF49700DC6274 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		82CBACEA198FF4B400DC6274 /* SimpleShare */ = {
+			isa = PBXGroup;
+			children = (
+				82CBACEB198FF4C300DC6274 /* SimpleShare.h */,
+				82CBACEC198FF4C300DC6274 /* SimpleShare.m */,
+				82CBACED198FF4C300DC6274 /* SSFindItemManager.h */,
+				82CBACEE198FF4C300DC6274 /* SSFindItemManager.m */,
+				82CBACEF198FF4C300DC6274 /* SSShareItemManager.h */,
+				82CBACF0198FF4C300DC6274 /* SSShareItemManager.m */,
+			);
+			name = SimpleShare;
+			sourceTree = "<group>";
+		};
+		82CBACF4198FF4D600DC6274 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82CBACDC198FE82900DC6274 /* CoreBluetooth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		357D118A196B5A550055CDAE /* SimpleShare Swift Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 357D11A7196B5A550055CDAE /* Build configuration list for PBXNativeTarget "SimpleShare Swift Demo" */;
+			buildPhases = (
+				357D1187196B5A550055CDAE /* Sources */,
+				357D1188196B5A550055CDAE /* Frameworks */,
+				357D1189196B5A550055CDAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SimpleShare Swift Demo";
+			productName = TipCalculator;
+			productReference = 357D118B196B5A550055CDAE /* SimpleShare Swift Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		357D119C196B5A550055CDAE /* SimpleShare Swift DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 357D11AA196B5A550055CDAE /* Build configuration list for PBXNativeTarget "SimpleShare Swift DemoTests" */;
+			buildPhases = (
+				357D1199196B5A550055CDAE /* Sources */,
+				357D119A196B5A550055CDAE /* Frameworks */,
+				357D119B196B5A550055CDAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				357D119F196B5A550055CDAE /* PBXTargetDependency */,
+			);
+			name = "SimpleShare Swift DemoTests";
+			productName = TipCalculatorTests;
+			productReference = 357D119D196B5A550055CDAE /* SimpleShare Swift DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		357D1183196B5A550055CDAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Razeware LLC";
+				TargetAttributes = {
+					357D118A196B5A550055CDAE = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					357D119C196B5A550055CDAE = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 357D118A196B5A550055CDAE;
+					};
+				};
+			};
+			buildConfigurationList = 357D1186196B5A550055CDAE /* Build configuration list for PBXProject "SimpleShare Swift Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 357D1182196B5A550055CDAE;
+			productRefGroup = 357D118C196B5A550055CDAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				357D118A196B5A550055CDAE /* SimpleShare Swift Demo */,
+				357D119C196B5A550055CDAE /* SimpleShare Swift DemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		357D1189196B5A550055CDAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82CBACF7198FF5CE00DC6274 /* Main.storyboard in Resources */,
+				82CBACE7198FF49700DC6274 /* Images.xcassets in Resources */,
+				82CBACE8198FF49700DC6274 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		357D119B196B5A550055CDAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		357D1187196B5A550055CDAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82CBACF9198FF5F800DC6274 /* README.md in Sources */,
+				82CBACE5198FF49700DC6274 /* AppDelegate.swift in Sources */,
+				82CBACF3198FF4C300DC6274 /* SSShareItemManager.m in Sources */,
+				82CBACE9198FF49700DC6274 /* ViewController.swift in Sources */,
+				82CBACF1198FF4C300DC6274 /* SimpleShare.m in Sources */,
+				82CBACF2198FF4C300DC6274 /* SSFindItemManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		357D1199196B5A550055CDAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		357D119F196B5A550055CDAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 357D118A196B5A550055CDAE /* SimpleShare Swift Demo */;
+			targetProxy = 357D119E196B5A550055CDAE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		82CBACF5198FF5CE00DC6274 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82CBACF6198FF5CE00DC6274 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		357D11A5196B5A550055CDAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		357D11A6196B5A550055CDAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		357D11A8196B5A550055CDAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = SimpleShareDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "SimpleShare Swift Demo";
+				SWIFT_OBJC_BRIDGING_HEADER = "SimpleShareDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		357D11A9196B5A550055CDAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = SimpleShareDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "SimpleShare Swift Demo";
+				SWIFT_OBJC_BRIDGING_HEADER = "SimpleShareDemo-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		357D11AB196B5A550055CDAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TipCalculator.app/TipCalculator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TipCalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "SimpleShare Swift DemoTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		357D11AC196B5A550055CDAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TipCalculator.app/TipCalculator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TipCalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "SimpleShare Swift DemoTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		357D1186196B5A550055CDAE /* Build configuration list for PBXProject "SimpleShare Swift Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				357D11A5196B5A550055CDAE /* Debug */,
+				357D11A6196B5A550055CDAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		357D11A7196B5A550055CDAE /* Build configuration list for PBXNativeTarget "SimpleShare Swift Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				357D11A8196B5A550055CDAE /* Debug */,
+				357D11A9196B5A550055CDAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		357D11AA196B5A550055CDAE /* Build configuration list for PBXNativeTarget "SimpleShare Swift DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				357D11AB196B5A550055CDAE /* Debug */,
+				357D11AC196B5A550055CDAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 357D1183196B5A550055CDAE /* Project object */;
+}
