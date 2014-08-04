@@ -121,14 +121,9 @@
 
 - (void)findItemManagerFoundItemIDs:(NSArray *)itemIDs
 {
-    NSLog(@"found items: %@", itemIDs);
     if (_foundItemIDs == nil) {
-        NSLog(@"found items is nil");
         _foundItemIDs = [[NSMutableArray alloc] init];
         [_foundItemIDs addObjectsFromArray:itemIDs];
-        if (delegate == nil) {
-            NSLog(@"simpleshare delegate is nil");
-        }
         [delegate simpleShareFoundFirstItems:itemIDs];
         return;
     }
@@ -139,10 +134,6 @@
             [_foundItemIDs addObject:anItemID];
             [moreItemIDsArray addObject:anItemID];
         }
-    }
-    NSLog(@"found items: %@", moreItemIDsArray);
-    if (delegate == nil) {
-        NSLog(@"simpleshare delegate is nil");
     }
     [delegate simpleShareFoundMoreItems:moreItemIDsArray];
     moreItemIDsArray = nil;
